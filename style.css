@@ -88,46 +88,7 @@ border-radius: 10px;
 
 
 
-form {
-  
-max-width: 400px;
-  
-margin: 0 auto;
 
-}
-
-
-form input,
-
-form textarea {
-  
-display: block;
-  
-width: 100%;
-  
-margin-bottom: 10px;
-  
-padding: 8px;
-
-}
-
-
-
-button {
-  
-padding: 10px 20px;
-  
-background: #3399ff;
-  
-color: white;
-  
-border: none;
-  
-cursor: pointer;
-  
-border-radius: 5px;
-
-}
 
 
 #articles {
@@ -202,6 +163,15 @@ border-radius: 5px;
   cursor: pointer;
 }
 
+.toggle-btn {
+  background-color: #003366;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
 
 
 footer {
@@ -215,4 +185,5 @@ background: #cce6ff;
 
 color: #333;
 }
+
 
