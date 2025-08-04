@@ -1,5 +1,4 @@
-function submitForm() {
-  alert("Thanks for reaching out! Your message has been sent.");
-  return false;
-}
-
+document.getElementById("see-more-btn").addEventListener("click", function () {
+  document.getElementById("more-articles").style.display = "block";
+  this.style.display = "none";
+});
