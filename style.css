@@ -76,6 +76,39 @@ text-align: center;
 }
 
 
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.header-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+.title-block h1 {
+  margin: 0;
+  font-size: 26px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #e0e0e0;
+  margin-top: 5px;
+}
+
+
+
+
+
+
 .gallery-images img {
   
 width: 200px;
@@ -185,5 +218,6 @@ background: #cce6ff;
 
 color: #333;
 }
+
 
 
